@@ -4,7 +4,7 @@ buildscript {
         maven { url 'https://repo1.maven.org/maven2/'}
         maven {url 'http://nexus.gluonhq.com/nexus/content/repositories/releases'}
         maven {url 'https://mvnrepository.com/artifact'}
-        maven {url 'https://cde.toyota-europe.com/nexus/content/groups/tme'}
+      
         
         
     
@@ -19,7 +19,7 @@ repositories {
     jcenter()
     maven {   url 'http://nexus.gluonhq.com/nexus/content/repositories/releases'}
       maven  {url 'https://repo1.maven.org/maven2/'}
-      maven {url 'https://cde.toyota-europe.com/nexus/content/groups/tme'}
+      
 }
 
 compileJava.options.fork = true
