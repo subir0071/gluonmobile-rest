@@ -60,7 +60,7 @@ public class TernaryAddViewPresenter {
 				.header("Accept", "application/json")
 				.method("POST");
 		NotesBean chicken = new NotesBean();
-		chicken.setNote("Hello There");
+		chicken.setNote(noteText);
 		GluonObservableObject<NotesBean> o = DataProvider.storeObject(chicken,
 				restClient.createObjectDataWriter(NotesBean.class));
 		
